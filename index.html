@@ -29,6 +29,14 @@
             background-color: #fff;
             color: #0E0E10;
         }
+
+        @media only screen and (max-width: 720px) {
+            font-size: 2.2rem;
+
+            .main-video {
+                display: none;
+            }
+        }
     </style>
 </head>
 
@@ -36,8 +44,14 @@
     <header>
         <h1>You're no better than Frank!</h1>
     </header>
-    <iframe src="https://clips.twitch.tv/embed?clip=NaiveMoistGoshawkStinkyCheese&parent=possumlake.work"
-        frameborder="0" allowfullscreen="true" scrolling="no" height="756" width="1240"></iframe>
+
+    <div class="main-video">
+        <iframe src="https://clips.twitch.tv/embed?clip=NaiveMoistGoshawkStinkyCheese&parent=possumlake.work"
+            frameborder="0" allowfullscreen="true" scrolling="no" height="756" width="1240"></iframe>
+    </div>
+
+    <a href="https://clips.twitch.tv/NaiveMoistGoshawkStinkyCheese" target="_blank" class="twitch-btn">Watch on
+        Twitch</a>
 
 </body>
 
